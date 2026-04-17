@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    minitest-rerun-failed (0.2.3)
-      minitest (~> 5.0, >= 5.0.0)
-      minitest-reporters (~> 1.4, >= 1.4.0)
+    minitest-rerun-failed (0.2.4)
+      minitest (>= 5.0.0, < 7.0)
+      minitest-reporters (>= 1.8.0, < 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -22,17 +22,17 @@ GEM
     ast (2.4.2)
     base64 (0.2.0)
     bigdecimal (3.1.7)
-    builder (3.2.4)
+    builder (3.3.0)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
-    drb (2.2.1)
+    drb (2.2.3)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
-    minitest (5.14.4)
-    minitest-reporters (1.4.3)
+    minitest (5.26.1)
+    minitest-reporters (1.8.0)
       ansi
       builder
-      minitest (>= 5.0)
+      minitest (>= 5.0, < 7)
       ruby-progressbar
     mutex_m (0.2.0)
     parallel (1.20.1)
@@ -70,7 +70,7 @@ GEM
       rubocop-rails
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
-    ruby-progressbar (1.11.0)
+    ruby-progressbar (1.13.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
@@ -78,6 +78,8 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-19
   x86_64-darwin-20
   x86_64-linux
@@ -92,4 +94,4 @@ DEPENDENCIES
   rubocop-rake
 
 BUNDLED WITH
-   2.2.22
+   2.4.22

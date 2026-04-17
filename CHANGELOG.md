@@ -1,3 +1,6 @@
+## [0.2.4] - 2026-04-17
+- Update dependency version
+
 ## [0.2.3] - 2024-05-26
 - Added: Rerun tests executable
 
