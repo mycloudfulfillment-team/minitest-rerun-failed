@@ -9,9 +9,9 @@ filepath = File.join(dirpath, filename)
 
 failed_tests = []
 
-if !File.exist?(filename)
+if !File.exist?(filepath)
   puts "No #{filename} found"
-elsif File.empty?(filename)
+elsif File.empty?(filepath)
   puts "No failed tests in #{filename}"
 else
   failed_tests += File.readlines(filepath).map{ _1.strip }

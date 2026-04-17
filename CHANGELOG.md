@@ -1,3 +1,6 @@
+## [0.2.5] - 2026-04-17
+- Fixed: update executable to work with ENV MINITEST_FAILED_TESTS_REPORT_DIR correctly
+
 ## [0.2.4] - 2026-04-17
 - Update dependency version
 
